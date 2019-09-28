@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdd8dda2-83f3-42d1-85e6-398a031ba0bc" name="Default Changelist" comment="" />
+    <list default="true" id="fdd8dda2-83f3-42d1-85e6-398a031ba0bc" name="Default Changelist" comment="uiTestsScratch">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/uiTests/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/uiTests/SampleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/Api/TestBaseApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/Ui/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/Utils/DateUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/Utils/PropUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ApiTests/PostGetPutDeleteApiTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Endpoints/Endpoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/UiTests/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/UiTests/SampleTest.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +26,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +38,7 @@
   </component>
   <component name="ProjectId" id="1RHREyUtwjfpQJ9Q3hAIdPdJaHU" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -41,79 +56,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PostGetPutDeleteApiTest.createAndCheckBucket">
-    <configuration name="DateUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="helpers.Utils.DateUtil" />
-      <module name="AutomationTestModule" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="helpers.Utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostGetPutDeleteApiTest.Sample2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SampleTest.sample">
+    <configuration name="CrudTest.createAndCheckBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UiAutomationFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.ApiTests.*" />
+          <option name="PATTERN" value="BaseClasses.api.POJO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.ApiTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ApiTests.PostGetPutDeleteApiTest" />
-      <option name="METHOD_NAME" value="Sample2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostGetPutDeleteApiTest.createAndCheckBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UiAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.ApiTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.ApiTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ApiTests.PostGetPutDeleteApiTest" />
+      <option name="PACKAGE_NAME" value="tests.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.apiTests.CrudTest" />
       <option name="METHOD_NAME" value="createAndCheckBucket" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostGetPutDeleteApiTest.createAndGetBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CrudTest.createAndGetBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UiAutomationFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.ApiTests.*" />
+          <option name="PATTERN" value="BaseClasses.api.POJO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.ApiTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ApiTests.PostGetPutDeleteApiTest" />
+      <option name="PACKAGE_NAME" value="tests.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.apiTests.CrudTest" />
       <option name="METHOD_NAME" value="createAndGetBucket" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostGetPutDeleteApiTest.createBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CrudTest.createBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UiAutomationFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.ApiTests.*" />
+          <option name="PATTERN" value="BaseClasses.api.POJO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.ApiTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ApiTests.PostGetPutDeleteApiTest" />
+      <option name="PACKAGE_NAME" value="tests.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.apiTests.CrudTest" />
       <option name="METHOD_NAME" value="createBucket" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrudTest.crudTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UiAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.apiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.apiTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.apiTests.CrudTest" />
+      <option name="METHOD_NAME" value="crudTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SampleTest.sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UiAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.uiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.uiTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.uiTests.SampleTest" />
+      <option name="METHOD_NAME" value="sample" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostGetPutDeleteApiTest.createAndCheckBucket" />
-        <item itemvalue="JUnit.PostGetPutDeleteApiTest.createAndGetBucket" />
-        <item itemvalue="JUnit.PostGetPutDeleteApiTest.createBucket" />
-        <item itemvalue="Application.DateUtil" />
-        <item itemvalue="JUnit.PostGetPutDeleteApiTest.Sample2" />
+        <item itemvalue="JUnit.SampleTest.sample" />
+        <item itemvalue="JUnit.CrudTest.crudTest" />
+        <item itemvalue="JUnit.CrudTest.createAndCheckBucket" />
+        <item itemvalue="JUnit.CrudTest.createAndGetBucket" />
+        <item itemvalue="JUnit.CrudTest.createBucket" />
       </list>
     </recent_temporary>
   </component>
@@ -187,6 +205,45 @@
       <option name="presentableId" value="Default" />
       <updated>1569321926235</updated>
     </task>
+    <task id="LOCAL-00001" summary="crud bucket test">
+      <created>1569664319072</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569664319072</updated>
+    </task>
+    <task id="LOCAL-00002" summary="uiTestsScratch">
+      <created>1569679444575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569679444575</updated>
+    </task>
+    <task id="LOCAL-00003" summary="uiTestsScratch">
+      <created>1569682319471</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1569682319471</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="crud bucket test" />
+    <MESSAGE value="final api test version" />
+    <MESSAGE value="uiTestsScratch" />
+    <option name="LAST_COMMIT_MESSAGE" value="uiTestsScratch" />
   </component>
 </project>
