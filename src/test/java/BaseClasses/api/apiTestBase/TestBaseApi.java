@@ -1,4 +1,4 @@
-package helpers.Api;
+package BaseClasses.api.apiTestBase;
 
 import org.junit.After;
 import org.junit.Before;

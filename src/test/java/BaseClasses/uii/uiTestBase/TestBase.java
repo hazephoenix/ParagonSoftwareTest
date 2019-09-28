@@ -1,4 +1,4 @@
-package helpers.Ui;
+package BaseClasses.uii.uiTestBase;
 
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.WebDriverRunner;
@@ -7,11 +7,13 @@ import org.junit.After;
 import org.junit.Before;
 
 public class TestBase {
+
     @Before
-    public void init() {
+    public void setup() {
         WebDriverManager.chromedriver().setup();
+        Configuration.baseUrl = "https://potolkoff58.ru";
         Configuration.browser = "chrome";
-        System.out.println("init completed");
+        Configuration.holdBrowserOpen = true;
     }
 
     @After
@@ -19,6 +21,5 @@ public class TestBase {
         if(WebDriverRunner.getWebDriver()!= null) {
             WebDriverRunner.getWebDriver().quit();
         }
-        System.out.println("tearDown completed");
     }
 }

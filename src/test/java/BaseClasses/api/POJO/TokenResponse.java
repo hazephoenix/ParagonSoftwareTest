@@ -1,8 +1,8 @@
-package tests.ApiTests;
+package BaseClasses.api.POJO;
 
 public class TokenResponse {
 
-    String token;
+    private String token;
 
     public TokenResponse (){
     }
