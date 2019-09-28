@@ -1,4 +1,4 @@
-package tests.Endpoints;
+package helpers.Endpoints;
 
 public class Endpoints {
 
