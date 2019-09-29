@@ -34,4 +34,5 @@ public class CrudTest {
 
         //удаляем
         deleteBasket(generatedBasketId, authorizationToken);
-}}
+    }
+}
