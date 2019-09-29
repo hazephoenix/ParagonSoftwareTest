@@ -4,7 +4,7 @@ import org.junit.After;
 import org.junit.Before;
 
 
-public class TestBaseApi {
+public class ApiTestBase {
 
     @Before
     public void setup() {

@@ -6,14 +6,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
 import org.junit.Before;
 
-public class TestBase {
+public class UiTestBase {
 
     @Before
     public void setup() {
         WebDriverManager.chromedriver().setup();
         Configuration.baseUrl = "https://potolkoff58.ru";
         Configuration.browser = "chrome";
-        Configuration.holdBrowserOpen = true;
+        Configuration.startMaximized = true;
     }
 
     @After

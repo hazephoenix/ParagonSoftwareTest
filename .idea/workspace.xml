@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdd8dda2-83f3-42d1-85e6-398a031ba0bc" name="Default Changelist" comment="uiTestsScratch">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="fdd8dda2-83f3-42d1-85e6-398a031ba0bc" name="Default Changelist" comment="final refactoring">
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/CalcForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/ContactsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/GalleryPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/PriceListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/uiTests/PotolkoffEnd2EndTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/uiTests/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/uiTests/SampleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/Api/TestBaseApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/Ui/TestBase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/Utils/DateUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/helpers/Utils/PropUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/ApiTests/PostGetPutDeleteApiTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/Endpoints/Endpoints.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/UiTests/SampleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/UiTests/SampleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClasses/api/apiTestBase/TestBaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseClasses/api/apiTestBase/ApiTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/Calculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/Contacts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/Photogallery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/pageModel/PriceList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/uiTestBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseClasses/uii/uiTestBase/UiTestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/uiTests/SampleTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/UiTests/SampleTest.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +45,7 @@
   <component name="ProjectId" id="1RHREyUtwjfpQJ9Q3hAIdPdJaHU" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.updates" />
@@ -56,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SampleTest.sample">
+  <component name="RunManager" selected="JUnit.PotolkoffEnd2EndTest.fullTest">
     <configuration name="CrudTest.createAndCheckBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UiAutomationFramework" />
       <extension name="coverage">
@@ -68,38 +74,6 @@
       <option name="PACKAGE_NAME" value="tests.apiTests" />
       <option name="MAIN_CLASS_NAME" value="tests.apiTests.CrudTest" />
       <option name="METHOD_NAME" value="createAndCheckBucket" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CrudTest.createAndGetBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UiAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BaseClasses.api.POJO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.apiTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.apiTests.CrudTest" />
-      <option name="METHOD_NAME" value="createAndGetBucket" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CrudTest.createBucket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UiAutomationFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BaseClasses.api.POJO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests.apiTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.apiTests.CrudTest" />
-      <option name="METHOD_NAME" value="createBucket" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,7 +95,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SampleTest.sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PotolkoffEnd2EndTest.fullTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UiAutomationFramework" />
       <extension name="coverage">
         <pattern>
@@ -130,8 +104,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests.uiTests" />
-      <option name="MAIN_CLASS_NAME" value="tests.uiTests.SampleTest" />
+      <option name="MAIN_CLASS_NAME" value="tests.uiTests.PotolkoffEnd2EndTest" />
+      <option name="METHOD_NAME" value="fullTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PotolkoffEnd2EndTest.sample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UiAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.uiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.uiTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.uiTests.PotolkoffEnd2EndTest" />
       <option name="METHOD_NAME" value="sample" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="asdf.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UiAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.uiTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.uiTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.uiTests.asdf" />
+      <option name="METHOD_NAME" value="test11" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -186,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SampleTest.sample" />
+        <item itemvalue="JUnit.PotolkoffEnd2EndTest.fullTest" />
+        <item itemvalue="JUnit.PotolkoffEnd2EndTest.sample" />
+        <item itemvalue="JUnit.asdf.test11" />
         <item itemvalue="JUnit.CrudTest.crudTest" />
         <item itemvalue="JUnit.CrudTest.createAndCheckBucket" />
-        <item itemvalue="JUnit.CrudTest.createAndGetBucket" />
-        <item itemvalue="JUnit.CrudTest.createBucket" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +240,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -244,6 +252,7 @@
     <MESSAGE value="crud bucket test" />
     <MESSAGE value="final api test version" />
     <MESSAGE value="uiTestsScratch" />
-    <option name="LAST_COMMIT_MESSAGE" value="uiTestsScratch" />
+    <MESSAGE value="final refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="final refactoring" />
   </component>
 </project>
